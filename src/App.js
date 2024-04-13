@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from 'react';
+import { Element } from 'react-scroll';
+import HomePage from './components/HomePage/HomePage';
+import CaseStudy from './components/CaseStudy/CaseStudy';
+import AboutMe from './components/AboutMe/AboutMe';
+import ContactMe from './components/ContactMe/ContactMe';
+import ParallaxText from './components/ParallaxText/ParallaxText';
+import Cat from './components/Cat/Cat';
 
 function App() {
+  const catRef = useRef(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Element name="homePage">
+        <HomePage />
+      </Element>
+      <Element name="caseStudy">
+        <CaseStudy />
+      </Element>
+      <Element name="aboutMe">
+        <AboutMe />
+      </Element>
+      <ParallaxText baseVelocity={-10}>motion</ParallaxText>
+      <ParallaxText baseVelocity={10}>frontend</ParallaxText>
+      <Element name="cat">
+        <Cat ref={catRef} />
+      </Element>
+      <Element name="contactMe">
+        <ContactMe triggerRef={catRef} />
+      </Element>
+    </>
   );
 }
 
