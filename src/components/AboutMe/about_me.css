@@ -1,7 +1,7 @@
 .about-me-container {
     height: 120vh;
     width: 100%;
-    padding: 7rem;
+    padding: 6rem;
     background-color: var(--light-colour);
     text-align: center;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 .about-me-grid {
-    max-width: calc(100% - 14rem);
+    max-width: calc(100% - 12rem);
     margin: 10px auto;
     margin-top: 2rem;
     display: grid;
