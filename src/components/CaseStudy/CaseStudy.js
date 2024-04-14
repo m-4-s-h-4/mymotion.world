@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './case_study.css'; 
 
 function CaseStudy() {
@@ -11,7 +12,8 @@ function CaseStudy() {
           Checkout my most recent case study I have done using After Effects for Northface
           Checkout my most recent case study I have done using After Effects for Northface
         </h4>
-        <button className="pulsateButton">View →</button> {/* Button with pulsating effect */}
+        <Link className="pulsateButton" to="/case-study">View →</Link>
+
       </div>
       <div className="imageContainer">
       </div>

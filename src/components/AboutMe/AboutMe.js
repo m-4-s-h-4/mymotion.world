@@ -15,13 +15,14 @@ const AboutMe = () => {
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                 </div>
                 <div className="grid-item">
-                    <h3>Frontend development</h3>
+                    <h3>Frontend & Motion</h3>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                 </div>
                 <div className="grid-item">
-                    <h3>Motion design</h3>
+                    <h3>Inspired By</h3>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                 </div>
+                
             </div>
         </div>
     );
