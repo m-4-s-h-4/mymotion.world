@@ -5,6 +5,7 @@
     height: 8rem;
     padding: 1.5rem;
     z-index: 100;
+    background-color: var(--light-colour);
     
   }
   

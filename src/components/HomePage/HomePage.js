@@ -3,8 +3,10 @@ import './home_page.css';
 
 const HomePage = () => {
     return (
-        <div className="homePageContainer">
-        </div>
+        <header>
+            <div className="homePageContainer">
+                </div>
+        </header>
     );
 };
 

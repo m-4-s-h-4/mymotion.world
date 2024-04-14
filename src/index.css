@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
-@import url('https://fonts.cdnfonts.com/css/artpast');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +15,19 @@
   --font-size-h3: 36px;
   --font-bold:600;
 
+  --small-font-size-h1: 80px;
+  --small-font-size-h2: 25px;
+  --small-font-size-h3: 25px;
+
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+html{
+  background-color: #090909;
+  height: -webkit-fill-available;
 }
 
 body {
@@ -37,7 +46,7 @@ line-height: 80%;
 }
 
 h2{
-  font-size: var(--font-size-h1);
+  font-size: var(--font-size-h2);
   font-weight: var(--font-bold);
   text-transform: uppercase;
   }
@@ -50,4 +59,21 @@ h3{
 h4{
   font-size: var(--font-size-h3);
   font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: var( --small-font-size-h1);
+    }
+    
+    h2{
+      font-size: var( --small-font-size-h2);
+      }
+    
+    h3{
+        font-size: var( --small-font-size-h3);
+      }
+    h4{
+      font-size: var(--small-font-size-h4);
+    }
 }

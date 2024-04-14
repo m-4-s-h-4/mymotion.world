@@ -6,16 +6,16 @@
     justify-content: flex-end;
     padding-left: 3rem;
     padding-bottom: 3rem;
-    background-color: black;
+    background-color: #090909;
     border-radius: 40px 40px 0 0;
+    z-index: 1000;
 }
 
 .contactText {
     margin-bottom: 1rem;
-    font-size: var(--font-size-h2);
     color: var(--light-colour);
     font-weight: var(--font-bold);
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .circleIcon {
@@ -32,4 +32,40 @@
 .iconsContainer {
     display: flex;
     align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contactContainer {
+        padding-left: 1rem; /* Reduced padding for smaller screens */
+        padding-bottom: 1rem;
+        border-radius: 20px 20px 0 0; /* Smaller border-radius */
+        margin-top: -1rem;
+    }
+    
+    .contactText {
+        margin-bottom: 0.5rem; /* Smaller margin */
+        font-size: var(--small-font-size-h1);
+    }
+    
+    .circleIcon {
+        width: 3rem; /* Smaller icons */
+        height: 3rem;
+    }
+
+    .iconsContainer {
+        justify-content: flex-start; /* Align icons to the start on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .contactContainer {
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .circleIcon {
+        width: 2.5rem; /* Further reduced icon size */
+        height: 2.5rem;
+    }
 }

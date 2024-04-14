@@ -18,17 +18,17 @@ function App() {
       <Element name="caseStudy">
         <CaseStudy />
       </Element>
-      <Element name="aboutMe">
+    <Element name="aboutMe">
         <AboutMe />
       </Element>
       <ParallaxText baseVelocity={-10}>motion</ParallaxText>
       <ParallaxText baseVelocity={10}>frontend</ParallaxText>
-      <Element name="cat">
+       <Element name="cat">
         <Cat ref={catRef} />
       </Element>
       <Element name="contactMe">
         <ContactMe triggerRef={catRef} />
-      </Element>
+      </Element>  
     </>
   );
 }
