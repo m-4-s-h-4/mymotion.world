@@ -27,7 +27,7 @@ const ParallaxText = ({ children, baseVelocity = 100 }) => {
   return (
     <div className={styles.parallax}>
       <motion.div className={styles.scroller} style={{ x }}>
-        {Array(15)
+        {Array(35)
           .fill(null)
           .map((_, index) => (
             <span key={index} className={styles.parallaxSpan}>
