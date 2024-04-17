@@ -9,7 +9,7 @@ const SmoothScroll = ({ children }) => {
         if (scrollRef.current) {
             const scroll = new LocomotiveScroll({
                 el: scrollRef.current,
-                smooth: true,               
+                smooth: false,               
             });
 
             return () => {
