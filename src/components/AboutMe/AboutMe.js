@@ -1,5 +1,8 @@
 import React from 'react';
 import './about_me.css';
+import Lottie from 'lottie-react';
+import remote_anim from './remote_anim.json';
+import cat_anim from './cat_anim.json';
 
 const AboutMe = () => {
     return (
@@ -8,19 +11,19 @@ const AboutMe = () => {
             <div className="divider"></div>
             <div className="info-sections">
                 <div className="info-block">
-                    <img src="about-1.png" alt="Description of image 1" />
+                <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />
                     <h3>OPEN FOR REMOTE</h3>
-                    <h4>Lorem ipsum dolor sit amet,consectetur.Lorem ipsum dolor sit amet, consectetur</h4>
+                    <h4> I thrive in the quiet chaos of my home office, where my cat supervises all of the Zoom calls.</h4>
                 </div>
                 <div className="info-block">
-                    <img src="about-1.png" alt="Description of image 2" />
+                <Lottie className="lottie-block" animationData={remote_anim} loop={true} autoplay={true} />
                     <h3>MOTION & FRONTEND</h3>
-                    <h4>Lorem ipsum dolor sit amet,consectetur.Lorem ipsum dolor sit amet, consectetur</h4>
+                    <h4>I animate interfaces and engineer responsive layouts with a focus on user experience.</h4>
                 </div>
                 <div className="info-block">
                     <img src="about-1.png" alt="Description of image 3" />
                     <h3>THINGS THAT INSPIRE ME</h3>
-                    <h4>Lorem ipsum dolor sit amet,consectetur.Lorem ipsum dolor sit amet, consectetur</h4>
+                    <h4>Inspired by Ben Marriott’s storytelling, his influence shapes my narrative approach.</h4>
                 </div>
             </div>
         </div>

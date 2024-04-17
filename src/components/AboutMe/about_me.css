@@ -38,8 +38,11 @@ h3{
     text-align: left; /* Centers the content within each info block */
 }
 
-.info-block img {
+.lottie-block {
     width: 100%; /* Images take the full width of their container */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between image and text */
+    margin-top: -4rem;
+    margin-left: -4rem;
+    align-items: center;
 }

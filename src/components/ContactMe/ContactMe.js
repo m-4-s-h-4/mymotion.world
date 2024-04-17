@@ -3,7 +3,8 @@ import './contact_me.css';
 
 const ContactMe = () => {
   return (
-    <div  className="contact-container">
+    <div className="contact-container">
+      <img className="contact-container" src="contact_me.png" alt="tear of flyer" />
     </div>
   );
 };
