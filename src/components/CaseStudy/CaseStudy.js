@@ -1,9 +1,34 @@
-import React from 'react';
-import './case_study.css'; 
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom'; // import useNavigate from react-router-dom
+import './case_study.css';
 
 const CaseStudy = () => {
+    const navigate = useNavigate();
+    const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+    const cursorRef = useRef(null);
+
+    const handleMouseMove = (e) => {
+        const x = e.clientX;
+        const y = e.clientY;
+        setCursorPos({ x, y });
+    };
+
+    const handleContainerClick = () => {
+        navigate('/project-overview'); // Redirect on click
+    };
+
+    useEffect(() => {
+        if (cursorRef.current) {
+            cursorRef.current.style.left = `${cursorPos.x}px`;
+            cursorRef.current.style.top = `${cursorPos.y}px`;
+        }
+    }, [cursorPos]);
+
     return (
-        <div className="case-container">
+        <div className="case-container" onMouseMove={handleMouseMove} onClick={handleContainerClick}>
+            <div className="custom-cursor" ref={cursorRef}>
+                <div className="custom-cursor-text">View</div>
+            </div>
             <div className="parent">
                 <div className="text-and-logo">
                     <div className="text-container">

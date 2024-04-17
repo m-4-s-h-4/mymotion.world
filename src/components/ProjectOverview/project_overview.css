@@ -1,0 +1,65 @@
+.page-container{
+    height: auto;
+    width: 100%;
+    padding: 6rem;
+    box-sizing: border-box;
+    background-color: var(--dark-colour);
+}
+
+h2{
+    text-transform: none;
+}
+
+.orange-text-project{
+    color: var(--orange-colour);
+}
+
+.napkin-container{
+    width: 100%;
+    height: auto;
+}
+
+.sketches-text-container {
+    display: flex;
+    align-items: flex-end; /* Aligns items to the bottom */
+    justify-content: space-between; /* Separates the h4 and h2 to each side */
+}
+
+.text-small {
+    flex: 1; /* Allows the h4 to take necessary space, aligns text left by default */
+    margin-right: 20px; /* Adds some spacing between the two texts */
+}
+
+.sketches-text-large {
+    flex: 1; /* Allows the h2 to take necessary space, aligns text right */
+    text-align: right;
+    color: var(--orange-colour);
+}
+
+
+.stotyboard-container{
+    width: 100%;
+    height: auto;
+}
+
+
+.colour-text-container {
+    display: flex; /* Enables flexbox layout */
+    align-items: flex-end;
+    justify-content: space-between; /* Separates the h2 and h4 */
+}
+
+.colour-white-text, .colour-orange-text {
+    display: block; /* Makes each span a block, forcing a new line for each */
+}
+
+.text-small-right {
+    flex: 2; /* Takes twice the space compared to h2 */
+    text-align: left; /* Aligns text to the right */
+    padding-left: 20px; /* Adds some space between the texts */
+}
+
+.colour-container {
+    flex: 1; /* Ensures h2 takes less space */
+    text-align: left; /* Ensures text aligns to the left */
+}

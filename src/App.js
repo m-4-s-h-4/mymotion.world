@@ -13,10 +13,11 @@ const App = () => {
     <Router>
       <SmoothScroll>
         <div>
-          <Header />
+          
           <Routes>
             <Route path="/" element={
               <>
+              <Header />
                 <CaseStudy />
                 <AboutMe />
                 <Space />

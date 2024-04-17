@@ -10,12 +10,6 @@ const SmoothScroll = ({ children }) => {
             const scroll = new LocomotiveScroll({
                 el: scrollRef.current,
                 smooth: true,               
-                smartphone: {                    
-                    smooth: true
-                },
-                tablet: {                    
-                    smooth: true
-                }
             });
 
             return () => {

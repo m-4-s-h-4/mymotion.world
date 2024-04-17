@@ -7,6 +7,8 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--dark-colour);
+    cursor: none;
+    position: relative;
 }
 
 .parent {
@@ -47,4 +49,32 @@
 .shoes-container img {
     height: auto;
     object-fit: cover; /* Ensures the image covers the area appropriately without distortion */
+}
+
+
+/* custom cursor */
+
+.custom-cursor {
+    position: absolute;
+    width: 10rem; /* Size of the circle */
+    height: 10rem;
+    border: 2px solid var(--light-colour); /* Circle border */
+    border-radius: 50%; /* Makes it round */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* Prevents the cursor from affecting text selection and clicks */
+    z-index: 1000; /* Ensures it's on top */
+    transform: translate(-50%, -50%); /* Centers the text inside the cursor */
+    transition: transform 0.2s ease; /* Smooth transition for movement */
+    color: var(--light-colour);
+    text-align: center;
+    mix-blend-mode: difference;
+}
+
+.custom-cursor-text {
+    user-select: none; /* Prevents the text from being selected */
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
