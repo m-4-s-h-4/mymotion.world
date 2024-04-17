@@ -1,71 +1,50 @@
-.caseStudyContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-    padding: 3rem;
+.case-container {
     height: 100vh;
-}
-
-.textContainer {
+    width: 100%;
+    padding: 6rem;
+    box-sizing: border-box; /* Ensures padding is included in height */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 20px;
+    background-color: var(--dark-colour);
 }
 
-.imageContainer {
-    background: url('https://i.pinimg.com/originals/cb/09/c0/cb09c00fb86ba167df87f6f8d19f1c54.gif') no-repeat center center;
-    background-size: cover;
-    min-height: 30rem;
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 2:1 ratio for text and logo */
+    grid-template-rows: auto 1fr;
+    gap: 20px;
 }
 
-.caseStudyText {
-    padding-bottom: 2rem;
+.text-and-logo {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    gap: 20px;
 }
 
-.pulsateButton {
-    margin-top: 5rem;
-    background-color: #ff69b4;
-    color: white;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 45px;
-    font-size: var(--font-size-h3);
-    font-weight: var(--font-bold);
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    animation: pulsate 1.5s infinite;
+.text-container h2, .text-container h4 {
+    margin: 0; /* Removes default margin */
 }
 
-@media (max-width: 900px) {
-    .caseStudyContainer {
-        grid-template-columns: 1fr;
-        min-height: 60rem;
-        padding: 1rem;
-    }
-
-    .textContainer, .imageContainer {
-        padding: 10px;
-    }
-
-    .pulsateButton {
-        margin-top: 2rem;
-        width: 50%; 
-        border-radius: 20px; 
-        font-size: var(--small-font-size-h4);
-    }
+.text-orange{
+    font-weight: var(--font-orange-bold);
+    color: var(--orange-colour);
 }
 
-@keyframes pulsate {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 105, 180, 0.7);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 105, 180, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 105, 180, 0);
-    }
+.logo-container img {
+    width: 100%; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.shoes-container {
+    grid-column: 1 / -1; /* Spans across both columns */
+    display: flex;
+    justify-content: center; /* Centers the shoes image horizontally */
+}
+
+.shoes-container img {
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the area appropriately without distortion */
 }
