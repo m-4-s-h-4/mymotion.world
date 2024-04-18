@@ -5,19 +5,18 @@ import CaseStudy from './components/CaseStudy/CaseStudy';
 import AboutMe from './components/AboutMe/AboutMe';
 import ContactMe from './components/ContactMe/ContactMe';
 import Space from './components/Space';
-import SmoothScroll from './components/SmoothScroll';
-import ProjectOverview from './components/ProjectOverview/ProjectOverview'; // Import the new component
+import ProjectOverview from './components/ProjectOverview/ProjectOverview'; 
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <Router>
-      <SmoothScroll>
+        <ScrollToTop />
         <div>
-          
           <Routes>
             <Route path="/" element={
               <>
-              <Header />
+                <Header />
                 <CaseStudy />
                 <AboutMe />
                 <Space />
@@ -27,7 +26,6 @@ const App = () => {
             <Route path="/project-overview" element={<ProjectOverview />} />
           </Routes>
         </div>
-      </SmoothScroll>
     </Router>
   );
 };

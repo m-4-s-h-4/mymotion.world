@@ -1,5 +1,6 @@
-.page-container{
-    height: 400vh;
+/* Global Styles */
+.page-container {
+    height: auto;
     width: 100%;
     padding: 6rem;
     box-sizing: border-box;
@@ -7,107 +8,163 @@
     overflow: hidden;
 }
 
-h2{
+h2 {
     text-transform: none;
 }
 
-.colour-orange-text{
-    color: var(--orange-colour);
+/* Back Button Styles */
+.back-button {
+    position: fixed;
+    top: 1rem;
+    left: 6rem;
+    z-index: 1000;
 }
 
-/* Assuming you are using 8 images; adjust if you add more */
+.back-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--light-colour);
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff32;
+    color: var(--light-colour);
+    font-size: var(--font-size-h3);
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.back-button a:hover, .back-button a:focus {
+    background-color: var(--orange-colour);
+    color: var(--dark-colour);
+    border: 2px solid var(--dark-colour);
+}
+
+/* orange text */
+.orange-text-project{
+    color:var(--orange-colour)
+}
+
+.colour-orange-text{
+    color:var(--orange-colour)
+}
+
+/* Napkin Images Animation Styles */
 .napkin-container {
-    width: calc(30% * 7); /* This should be enough to hold 8 images with the specified overlap */
+    width: calc(30% * 7);
     height: auto;
     display: flex;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0 -6rem; /* Negates the padding effect from the page-container */
-    animation: slide 30s linear infinite; /* Adjust the timing for desired speed */
+    margin: 0 -6rem;
+    animation: slide 30s linear infinite;
 }
-/* napkins */
+
 .napkin-image {
-    width: 30%; /* Each image is 30% of the container's width */
+    width: 30%;
     height: auto;
-    margin-right: -13%; /* Overlap to ensure images are closer */
+    margin-right: -12%;
+    mix-blend-mode: exclusion;
 }
 
-@keyframes slide {
-    0% { transform: translateX(20%); }
-    100% { transform: translateX(-190%); } /* Move 2.4 images worth to keep four images in view */
-}
-
+/* Text Layout for Sketches Section */
 .sketches-text-container {
+    margin-top: 6rem;
     display: flex;
-    align-items: flex-end; /* Aligns items to the bottom */
-    justify-content: space-between; /* Separates the h4 and h2 to each side */
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .text-small {
-    flex: 1; /* Allows the h4 to take necessary space, aligns text left by default */
-    margin-right: 20px; /* Adds some spacing between the two texts */
+    flex: 1;
+    margin-right: 20px;
 }
 
 .sketches-text-large {
-    flex: 1; /* Allows the h2 to take necessary space, aligns text right */
+    flex: 1;
     text-align: right;
     color: var(--orange-colour);
 }
 
-
-.stotyboard-container{
+/* Storyboard Container Styles */
+.stotyboard-container {
+    margin-top: 6rem;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
+.stotyboard-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
+/* Colour Palette Layout */
 .colour-text-container {
-    display: flex; /* Enables flexbox layout */
+    margin-top: 6rem;
+    display: flex;
     align-items: flex-end;
-    justify-content: space-between; /* Separates the h2 and h4 */
+    justify-content: space-between;
 }
 
 .colour-white-text, .colour-orange-text {
-    display: block; /* Makes each span a block, forcing a new line for each */
+    display: block;
 }
 
 .text-small-right {
-    flex: 2; /* Takes twice the space compared to h2 */
-    text-align: left; /* Aligns text to the right */
-    padding-left: 20px; /* Adds some space between the texts */
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .colour-container {
-    flex: 1; /* Ensures h2 takes less space */
-    text-align: left; /* Ensures text aligns to the left */
+    flex: 1;
+    text-align: left;
 }
 
-
+/* Colour Pallet Selection Styles */
 .colour-pallets-selection {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centers the divs within the container */
+    justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%; /* Ensures the container takes full width */
+    width: 100%;
     margin-top: 3rem;
 }
 
 .colour-pallet {
-    flex: 0 0 50%; /* Two divs in the first row take up 50% each */
+    flex: 0 0 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20rem;
-    width: 50%; /* Explicitly define width for clarity */
+    width: 50%;
 }
 
 .colour-pallets-selection > .colour-pallet:nth-child(n+3) {
-    flex: 0 0 33.333%; /* Three divs in the second row take up approximately 33.333% each */
-    width: 33.333%; /* Explicitly define width to ensure each div takes up exactly one-third */
+    flex: 0 0 33.333%;
+    width: 33.333%;
 }
 
 .colour-pallet span {
-    display: block; /* Centers the text vertically and horizontally within the div */
+    display: block;
+}
+
+.colour-span-text {
+    font-size: var(--font-size-h3);
+    font-weight: 300;
+    mix-blend-mode: exclusion;
+}
+
+/* Adobe Title Container Styles */
+.adobe-title-container {
+    margin-top: 6rem;
+    width: 100%;
+    text-align: left;
 }

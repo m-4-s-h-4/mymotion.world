@@ -1,55 +1,54 @@
 .case-container {
-    height: 100vh;
     width: 100%;
-    padding: 6rem;
-    box-sizing: border-box; /* Ensures padding is included in height */
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--dark-colour);
     cursor: none;
     position: relative;
+    overflow-x:hidden;
+    z-index: 1;
 }
 
 .parent {
     width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 2fr 1fr; /* 2:1 ratio for text and logo */
-    grid-template-rows: auto 1fr;
-    gap: 20px;
-}
-
-.text-and-logo {
     display: flex;
-    align-items: center; /* Centers items vertically */
-    gap: 20px;
+    flex-direction: column; /* Stacks children vertically */
 }
 
-.text-container h2, .text-container h4 {
-    margin: 0; /* Removes default margin */
-}
-
-.text-orange{
-    font-weight: var(--font-orange-bold);
-    color: var(--orange-colour);
-}
-
-.logo-container img {
-    width: 100%; /* Adjust the size of the logo */
-    height: auto;
+.text-container {
+    padding: 6rem; /* Provides some space around the text */
+    background-color: var(--dark-colour); /* Makes text background stand out if needed */
+    width: 50%; /* Ensures text takes full width at the top */
+    z-index: -5;
 }
 
 .shoes-container {
-    grid-column: 1 / -1; /* Spans across both columns */
-    display: flex;
-    justify-content: center; /* Centers the shoes image horizontally */
+    width: 105%; /* Extends beyond 100% to account for overflow */
+    margin-top: -15rem; /* Pulls the container upwards to overlap with the text-container */
+    overflow: hidden; 
+    /* Keeps any overflow from the Lottie animation contained */
 }
 
-.shoes-container img {
-    height: auto;
-    object-fit: cover; /* Ensures the image covers the area appropriately without distortion */
+.lottie-block {
+    width: 100%; /* Fills the width of its container */
+    height: 50rem; /* Adjust height accordingly to maintain aspect ratio */
+    display: block; /* Ensures it displays as a block, removing any extra space around the element */
 }
+
+
+/* Styling for the text within the text container */
+.text-white {
+    color: var(--light-colour); 
+    mix-blend-mode: difference;
+}
+
+.text-orange {
+    color: var(--orange-colour);
+}
+
+
+
 
 
 /* custom cursor */
@@ -77,4 +76,22 @@
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.logo-background {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 50%; /* This can be adjusted based on your design needs */
+    height: 100vh; /* Make it fill the height of the viewport */
+    display: flex;
+    justify-content: center; /* Center the SVG horizontally */
+    align-items: center; /* Center the SVG vertically */
+    z-index: -1; /* Put it behind other content */
+    mix-blend-mode: difference;
+}
+
+.logo-background svg {
+    width: 100%; /* Ensure SVG fills the container */
+    height: auto; /* Keep the aspect ratio */
 }
