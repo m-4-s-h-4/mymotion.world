@@ -12,11 +12,12 @@
   --light-colour: #E8F7FF; 
   --orange-colour: #F53018;
 
-  --font-size-h1: 180px;
-  --font-size-h2: 100px;
-  --font-size-h3: 30px;
+  --font-size-h1: 10.42vw;
+  --font-size-h2: 5.21vw;
+  --font-size-h3: 1.74vw;
 
-  --font-orange-bold:700;
+  --font-bold:500;
+  --font-normal:300;
 
 }
 
@@ -34,6 +35,7 @@ body {
   font-family: 'Manrope', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: var(--font-normal);
 }
 
 h1{
@@ -47,7 +49,7 @@ h1{
 h2{
   font-size: var(--font-size-h2);
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: var(--font-bold);
   line-height: 110%;
   }
 
@@ -56,7 +58,7 @@ h3{
     font-size: var(--font-size-h3);
     color: var(--orange-colour);
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: var(--font-normal);
     line-height: 90%;
   }
 

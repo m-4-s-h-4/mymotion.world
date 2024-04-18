@@ -14,7 +14,7 @@ const AboutMe = () => {
                 <div className="info-block">
                 <Lottie className="lottie-block" animationData={remote_anim} loop={true} autoplay={true} />
                     <h3>MOTION & FRONTEND</h3>
-                    <h4>I animate interfaces and engineer responsive layouts with a focus on user experience.</h4>
+                    <h4>I animate interfaces and craete websites with a focus on user experience.</h4>
                 </div>
                  <div className="info-block">
                 <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />

@@ -1,47 +1,54 @@
+/* Global Container Styles */
 .about-container {
     margin-top: -5rem;
     width: 100%;
     height: auto;
     padding: 6rem;
     box-sizing: border-box;
-    text-align: left; /* Center aligns all text */
+    text-align: left;
     background-color: var(--dark-colour);
     border-radius: 0 0 50px 50px;
 }
 
+/* Text Styles */
 h2 {
     margin: 0 0 10px 0; 
 }
 
-h3{
+h3 {
     margin-bottom: 20px;
+    max-width: 20rem;
 }
 
+/* Color Themes */
 .orange-text {
     color: var(--orange-colour);
-    /* font-weight: var(--font-orange-bold); */
 }
 
+/* Divider Styles */
 .divider {
     width: 100%;
     border-bottom: 3px dashed var(--light-colour); 
     margin-bottom: 6rem; 
 }
 
+/* Info Sections */
 .info-sections {
     display: flex;
-    justify-content: space-between; /* Space evenly between the info blocks */
+    justify-content: space-between;
 }
 
+/* Info Block */
 .info-block {
-    width: 30%; /* Each block takes up roughly one third of the container */
-    text-align: left; /* Centers the content within each info block */
+    width: 30%;
+    text-align: left;
 }
 
+/* Animation Blocks */
 .lottie-block {
-    width: 100%; /* Images take the full width of their container */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space between image and text */
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
     margin-top: -4rem;
     margin-left: -4rem;
     align-items: center;
