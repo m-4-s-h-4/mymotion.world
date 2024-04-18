@@ -1,4 +1,4 @@
-.contact-container{
+.contact-container {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -8,8 +8,13 @@
     overflow: hidden;
     background-color: #f53018;
     background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+    margin-top: -5rem; /* Consolidate your CSS declarations for the same selector */
 }
 
-.contact-container{
-margin-top: -5rem;
+.contact-text {
+    position: absolute; /* Absolute positioning within the fixed container */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Align to the bottom */
+    padding: 3rem; /* Add some padding around the text */
+    max-width:90%;
 }
