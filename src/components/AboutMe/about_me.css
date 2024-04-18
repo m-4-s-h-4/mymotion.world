@@ -19,7 +19,7 @@ h3{
 
 .orange-text {
     color: var(--orange-colour);
-    font-weight: var(--font-orange-bold);
+    /* font-weight: var(--font-orange-bold); */
 }
 
 .divider {

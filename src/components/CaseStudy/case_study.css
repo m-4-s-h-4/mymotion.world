@@ -45,6 +45,7 @@
 
 .text-orange {
     color: var(--orange-colour);
+    margin-top: -1rem;
 }
 
 
