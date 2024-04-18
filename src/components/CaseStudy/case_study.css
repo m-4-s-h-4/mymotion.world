@@ -25,7 +25,7 @@
 
 .shoes-container {
     width: 105%; /* Extends beyond 100% to account for overflow */
-    margin-top: -15rem; /* Pulls the container upwards to overlap with the text-container */
+    margin-top: -25rem; /* Pulls the container upwards to overlap with the text-container */
     overflow: hidden; 
     /* Keeps any overflow from the Lottie animation contained */
 }

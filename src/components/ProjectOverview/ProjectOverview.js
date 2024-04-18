@@ -14,12 +14,16 @@ const ProjectOverview = () => {
      <span className="white-text">— because aren't all brilliant ideas born on paper tablecloths? </span> </h2>
      <div className="divider"></div>
      <div className="napkin-container">
+    <div className="scrolling-content">
         <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
         <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
         <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
         <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
+        <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
+        <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
+    </div>
+</div>
 
-     </div>
      <div className="sketches-text-container">
      <h4 className="text-small">They set the sequence of the animation.mapping out a storyboard that transitions the shoes from urban to natural settings.</h4>
      <h2 className="sketches-text-large">The sketches evolved into more refined storyboards</h2>

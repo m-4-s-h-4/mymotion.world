@@ -52,24 +52,34 @@ h2 {
     color:var(--orange-colour)
 }
 
-/* Napkin Images Animation Styles */
 .napkin-container {
-    width: calc(30% * 7);
-    height: auto;
-    display: flex;
+    overflow: hidden;  /* Hides anything outside this container */
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0 -6rem;
+    margin-left: -6rem; /* Negate left padding */
+    margin-right: -6rem; /* Negate right padding */
+}
+
+.scrolling-content {
+    display: flex;
     animation: slide 30s linear infinite;
+    min-width: calc(100% + 12rem);  /* Add twice the padding to ensure the content is wide enough */
+    margin-left: -6rem; /* Negative margin to pull the content edge to the container edge */
+    margin-right: -6rem; /* Ensures content stretches beyond the padding on the right too */
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); } /* Adjust this if needed to smooth out the transition */
 }
 
 .napkin-image {
-    width: 30%;
+    width: 40%;  /* Set appropriate width */
     height: auto;
-    margin-right: -12%;
+    flex-shrink: 0; /* Prevents images from scaling down */
     mix-blend-mode: exclusion;
+    margin-right: -10%;  /* Creates overlap between images */
 }
+
 
 /* Text Layout for Sketches Section */
 .sketches-text-container {
