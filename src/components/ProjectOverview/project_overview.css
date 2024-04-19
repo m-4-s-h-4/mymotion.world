@@ -30,7 +30,6 @@ h2 {
     background-color: #ffffff32;
     color: var(--light-colour);
     font-size: var(--font-size-h3);
-    font-weight: 400;
     text-decoration: none;
     border-radius: 50%;
     transition: background-color 0.3s, color 0.3s;
@@ -45,11 +44,9 @@ h2 {
 
 /* orange text */
 .orange-text-project{
-    color:var(--orange-colour)
-}
-
-.colour-orange-text{
-    color:var(--orange-colour)
+    color:var(--orange-colour);
+    font-size: var(--font-size-h2);
+    line-height: 110%;
 }
 
 .napkin-container {

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Lottie from 'lottie-react';
 import shoes_anim from './shoes_anim.json';
 import './case_study.css';
+import CaseText from '../CaseText/CaseText';
 
 const CaseStudy = () => {
     const navigate = useNavigate();
@@ -16,7 +17,7 @@ const CaseStudy = () => {
     };
 
     const handleContainerClick = () => {
-        navigate('/project-overview'); // Redirect on click
+        navigate('/project-overview');
     };
 
     useEffect(() => {
@@ -32,11 +33,7 @@ const CaseStudy = () => {
                 <div className="custom-cursor-text">View</div>
             </div>
             <div className="parent">
-                <div className="text-container">
-                    <h2 className="text-white">Tropicfeel</h2>
-                    <h2 className="text-orange">Overview</h2>
-                    <h4>Animating the ultimate travel companion for Tropicfeel Canyon shoe in an eye-catching 10sec video.</h4>
-                </div>
+                <CaseText/>
                 <div className="shoes-container">
                     <Lottie className="lottie-block" animationData={shoes_anim} loop={true} autoplay={true} />
                 </div>
