@@ -30,6 +30,9 @@ html{
   background-color: var(--dark-colour);
 }
 
+/* margin-top: 3rem;
+margin-top: 6rem; */
+
 body {
   color: var(--light-colour);
   font-family: 'Manrope', sans-serif;

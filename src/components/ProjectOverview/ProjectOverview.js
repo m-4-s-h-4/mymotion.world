@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './project_overview.css'; 
+import ImageGrid from '../ImageGrid/ImageGrid';
+import SketchesGrid from '../SketchesGrid/SketchesGrid';
+import ColourPalette from '../ColourPalette/ColourPalette';
+import SketchesText from '../SketchesText/SketchesText';
+import PaletteText from '../PaletteText/PaletteText';
 
 const ProjectOverview = () => {
   return (
@@ -24,43 +29,14 @@ const ProjectOverview = () => {
     </div>
 </div>
 
-     <div className="sketches-text-container">
-     <h4 className="text-small">They set the sequence of the animation.mapping out a storyboard that transitions the shoes from urban to natural settings.
-     They set the sequence of the animation.mapping out a storyboard that transitions the shoes from urban to natural settings</h4>
-     <h2 className="sketches-text-large">The sketches evolved into more refined storyboards</h2>
-    </div>
-    <div className="stotyboard-container">
-        <img src="" alt="Storyboard image" />
-     </div>
-     <div className="colour-text-container">
-     <div className="colour-container">
-     <h2><span className="colour-white-text">COLOUR PALLETE </span> <span className="colour-orange-text">CHOICES</span ></h2>
-     </div>
-     <h4 className="text-small-right">This palette not only aligned with Tropicfeel’s brand identity but also supported the theme of versatility in different environments. 
-     Inspired by nature and urban textures. This palette not only aligned with Tropicfeel’s brand identity but also supported the theme of versatility in different environments. Inspired by nature and urban textures.</h4>
-    </div>
-    <div className="colour-pallets-selection">
-    <div className="colour-pallet" style={{ backgroundColor: '#313c1f' }}>
-        <span className="colour-span-text">#313c1f</span>
-    </div>
-    <div className="colour-pallet" style={{ backgroundColor: '#22241d' }}>
-        <span className="colour-span-text">#22241d</span>
-    </div>
-    <div className="colour-pallet" style={{ backgroundColor: '#003C43' }}>
-        <span className="colour-span-text">#003C43</span>
-    </div>
-    <div className="colour-pallet" style={{ backgroundColor: '#77B0AA' }}>
-        <span className="colour-span-text">#77B0AA</span>
-    </div>
-    <div className="colour-pallet" style={{ backgroundColor: '#E3FEF7' }}>
-        <span className="colour-span-text">#E3FEF7</span>
-    </div>
-    <div className="adobe-title-container">
-    <h2><span className="white-text">ANIMATING ADVENTURES IN ADOBE </span> <span className="orange-text-project">AFTEREFFECTS </span >
+     <SketchesText/>
+    <SketchesGrid/>
+   <PaletteText/>
+    <ImageGrid/>
+    <ColourPalette/>
+    <h2 className="adobe-title-container"><span className="white-text">ANIMATING ADVENTURES IN ADOBE </span> <span className="orange-text-project">AFTEREFFECTS </span >
      <span className="white-text">OR THE MORPHING MAYHEM</span> </h2>
-</div>
-</div>
-    </div>
+     </div>
   );
 };
 
