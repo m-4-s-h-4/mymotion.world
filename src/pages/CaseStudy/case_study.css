@@ -1,0 +1,6 @@
+.case-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--dark-colour);
+    overflow-x:hidden;
+}

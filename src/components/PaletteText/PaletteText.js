@@ -11,7 +11,11 @@ function PaletteText() {
       </div>
       <div className={styles.div1}>
       <h4 className={styles.storyDetails}>
-          This palette not only aligned with Tropicfeel’s brand identity but also supported the theme of versatility in different environments. Inspired by nature and urban textures. This palette not only aligned with Tropicfeel’s brand identity but also supported the theme of versatility in different environments. Inspired by nature and urban textures.
+          This palette not only aligned with Tropicfeel’s brand
+          identity but also supported the theme of versatility in different 
+          environments. Inspired by nature and urban textures. This palette not 
+          only aligned with Tropicfeel’s brand identity but also supported the 
+          theme of versatility in different environments. Inspired by nature and urban textures.
         </h4>
       </div>
     </div>

@@ -14,7 +14,8 @@
 
   --font-size-h1: 10.42vw;
   --font-size-h2: 5.21vw;
-  --font-size-h3: 1.74vw;
+  --font-size-h3-1: 1.50vw;
+  --font-size-h3: 1.20vw;
 
   --font-bold:500;
   --font-normal:300;
@@ -39,6 +40,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: var(--font-normal);
+  font-size: var(--font-size-h3);
+  line-height: 115%;
 }
 
 h1{
@@ -53,12 +56,12 @@ h2{
   font-size: var(--font-size-h2);
   text-transform: uppercase;
   font-weight: var(--font-bold);
-  line-height: 110%;
+  line-height: 90%;
   }
 
 h3{
     font-family: 'TT Autonomous Trial Variable', sans-serif;
-    font-size: var(--font-size-h3);
+    font-size: var( --font-size-h3-1);
     color: var(--orange-colour);
     text-transform: uppercase;
     font-weight: var(--font-normal);
@@ -68,5 +71,6 @@ h3{
   h4{
     font-size: var(--font-size-h3);
     font-weight: 300;
+    line-height: 115%;
     }
 

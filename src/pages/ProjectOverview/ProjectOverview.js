@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './project_overview.css'; 
-import ImageGrid from '../ImageGrid/ImageGrid';
-import SketchesGrid from '../SketchesGrid/SketchesGrid';
-import ColourPalette from '../ColourPalette/ColourPalette';
-import SketchesText from '../SketchesText/SketchesText';
-import PaletteText from '../PaletteText/PaletteText';
+import ImageGrid from '../../components/ImageGrid/ImageGrid';
+import SketchesGrid from '../../components/SketchesGrid/SketchesGrid';
+import ColourPalette from '../../components/ColourPalette/ColourPalette';
+import SketchesText from '../../components/SketchesText/SketchesText';
+import PaletteText from '../../components/PaletteText/PaletteText';
 
 const ProjectOverview = () => {
   return (
@@ -15,7 +15,7 @@ const ProjectOverview = () => {
           <span> {"<-"} </span> 
         </Link>
       </div>
-     <h2><span className="white-text">It all began with </span> <span className="orange-text-project">sketches on napkins </span >
+     <h2 className="main-text"><span className="white-text">It all began with </span> <span className="orange-text-project">sketches on napkins </span >
      <span className="white-text">— because aren't all brilliant ideas born on paper tablecloths? </span> </h2>
      <div className="divider"></div>
      <div className="napkin-container">

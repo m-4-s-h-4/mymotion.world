@@ -14,17 +14,22 @@ const AboutMe = () => {
                 <div className="info-block">
                 <Lottie className="lottie-block" animationData={remote_anim} loop={true} autoplay={true} />
                     <h3>MOTION & FRONTEND</h3>
-                    <h4>I animate interfaces and craete websites with a focus on user experience.</h4>
+                    <h4>I animate interfaces and craete websites with a focus on user experience.
+                        I animate interfaces and craete websites with a focus on user experience.</h4>
                 </div>
                  <div className="info-block">
                 <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />
                     <h3>OPEN FOR REMOTE</h3>
-                    <h4> I thrive in the quiet chaos of my home office, where my cat supervises all of the Zoom calls.</h4>
+                    <h4> I thrive in the quiet chaos of my home office, 
+                        where my cat supervises all of the Zoom calls.I thrive in the quiet chaos of my home office, 
+                        where my cat supervises all of the Zoom calls.</h4>
                 </div>
                 <div className="info-block">
                 <Lottie className="lottie-block" animationData={inspire_anim} loop={true} autoplay={true} />
                     <h3>THINGS THAT INSPIRE ME</h3>
-                    <h4>Inspired by Ben Marriott’s storytelling, his influence shapes my narrative approach.</h4>
+                    <h4>Inspired by Ben Marriott’s storytelling, 
+                        his influence shapes my narrative approach.Inspired by Ben Marriott’s 
+                        storytelling, his influence shapes my narrative.</h4>
                 </div>
             </div>
         </div>

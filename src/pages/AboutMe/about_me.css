@@ -16,6 +16,7 @@ h2 {
 }
 
 h3 {
+    margin-top: 20px;
     margin-bottom: 20px;
     max-width: 20rem;
 }
@@ -42,14 +43,15 @@ h3 {
 .info-block {
     width: 30%;
     text-align: left;
+    overflow: hidden; /* Contain the animations within the block */
 }
 
 /* Animation Blocks */
 .lottie-block {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
-    margin-top: -4rem;
-    margin-left: -4rem;
+    margin: 0 auto; /* Center align and remove negative margins */
+    display: flex;
+    justify-content: center;
     align-items: center;
 }

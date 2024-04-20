@@ -12,8 +12,15 @@ function SketchesText() {
       </div>
       <div className={styles.div2}>
         <h4 className={styles.storyDetails}>
-          They set the sequence of the animation, mapping out a storyboard that transitions the shoes from urban to natural settings.
-          They set the sequence of the animation, mapping out a storyboard that transitions the shoes from urban to natural settings.
+          They set the sequence of the animation, mapping out a storyboard 
+          that transitions the shoes from urban to natural settings.
+          They set the sequence of the animation, mapping out a storyboard 
+          that transitions the shoes from urban to natural settings.
+
+          They set the sequence of the animation, mapping out a storyboard 
+          that transitions the shoes from urban to natural settings.
+          They set the sequence of the animation, mapping out a storyboard 
+          that transitions the shoes from urban to natural settings.
         </h4>
       </div>
     </div>

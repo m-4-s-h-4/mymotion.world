@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
-import CaseStudy from './components/CaseStudy/CaseStudy';
-import AboutMe from './components/AboutMe/AboutMe';
-import ContactMe from './components/ContactMe/ContactMe';
+import Header from './pages/Header/Header';
+import CaseStudy from './pages/CaseStudy/CaseStudy';
+import AboutMe from './pages/AboutMe/AboutMe';
+import ContactMe from './pages/ContactMe/ContactMe';
 import Space from './components/Space';
-import ProjectOverview from './components/ProjectOverview/ProjectOverview'; 
+import ProjectOverview from './pages/ProjectOverview/ProjectOverview'; 
 import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {

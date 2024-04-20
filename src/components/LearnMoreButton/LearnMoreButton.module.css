@@ -1,0 +1,28 @@
+.buttonContainer {
+    width: 100%; /* Container takes full width */
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content: flex-end; /* Aligns children to the end (right) */
+    margin-top: 3rem;
+    padding-right: 6rem; /* Padding for aesthetic spacing */
+  }
+  
+  .linkButton {
+    z-index: 1000;
+    background-color: var(--light-colour); /* Example color */
+    color: var(--dark-colour);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block; /* Align as inline-block */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-family: 'TT Autonomous Trial Variable', sans-serif;
+    font-size: var( --font-size-h3-1);
+    text-transform: uppercase;
+    font-weight: var(--font-normal);
+    line-height: 90%;
+  }
+  
+  .linkButton:hover {
+    background-color: var(--orange-colour); /* Darker blue on hover */
+  }
+  

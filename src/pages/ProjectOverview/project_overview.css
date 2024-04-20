@@ -8,8 +8,9 @@
     overflow: hidden;
 }
 
-h2 {
+.main-text {
     text-transform: none;
+    line-height: 110%;
 }
 
 /* Back Button Styles */
@@ -46,7 +47,8 @@ h2 {
 .orange-text-project{
     color:var(--orange-colour);
     font-size: var(--font-size-h2);
-    line-height: 110%;
+    line-height: 90%;
+    
 }
 
 .napkin-container {
