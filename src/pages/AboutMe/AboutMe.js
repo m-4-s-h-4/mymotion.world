@@ -4,11 +4,12 @@ import Lottie from 'lottie-react';
 import remote_anim from './remote_anim.json';
 import cat_anim from './cat_anim.json';
 import inspire_anim from './inspire_anim.json';
+import Divider from '../../components/Divider/Diveder';
 const AboutMe = () => {
     return (
         <div className="about-container">
             <h2><span className="white-text">A BIT</span> <span className="orange-text">ABOUT ME</span></h2>
-            <div className="divider"></div>
+            <Divider/>
             <div className="info-sections">
                
                 <div className="info-block">

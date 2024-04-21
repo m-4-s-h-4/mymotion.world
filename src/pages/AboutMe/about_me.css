@@ -26,13 +26,6 @@ h3 {
     color: var(--orange-colour);
 }
 
-/* Divider Styles */
-.divider {
-    width: 100%;
-    border-bottom: 3px dashed var(--light-colour); 
-    margin-bottom: 6rem; 
-}
-
 /* Info Sections */
 .info-sections {
     display: flex;

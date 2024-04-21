@@ -6,6 +6,10 @@ import SketchesGrid from '../../components/SketchesGrid/SketchesGrid';
 import ColourPalette from '../../components/ColourPalette/ColourPalette';
 import SketchesText from '../../components/SketchesText/SketchesText';
 import PaletteText from '../../components/PaletteText/PaletteText';
+import Divider from '../../components/Divider/Diveder';
+import CaseStudyOne from '../../components/CaseStudyOne/CaseStudyOne';
+import CaseStudyTwo from '../../components/CaseStudyTwo/CaseStudyTwo';
+import CaseStudyThree from '../../components/CaseStudyThree/CaseStudyThree';
 
 const ProjectOverview = () => {
   return (
@@ -17,7 +21,7 @@ const ProjectOverview = () => {
       </div>
      <h2 className="main-text"><span className="white-text">It all began with </span> <span className="orange-text-project">sketches on napkins </span >
      <span className="white-text">— because aren't all brilliant ideas born on paper tablecloths? </span> </h2>
-     <div className="divider"></div>
+     <Divider/>
      <div className="napkin-container">
     <div className="scrolling-content">
         <img src="napkins.png" alt="Sketches on napkins" className="napkin-image" />
@@ -36,7 +40,12 @@ const ProjectOverview = () => {
     <ColourPalette/>
     <h2 className="adobe-title-container"><span className="white-text">ANIMATING ADVENTURES IN ADOBE </span> <span className="orange-text-project">AFTEREFFECTS </span >
      <span className="white-text">OR THE MORPHING MAYHEM</span> </h2>
+     <Divider/>
+     <CaseStudyOne/>
+     <CaseStudyTwo/>
+     <CaseStudyThree/>
      </div>
+     
   );
 };
 
