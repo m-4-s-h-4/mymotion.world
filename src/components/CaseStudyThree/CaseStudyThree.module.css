@@ -5,7 +5,7 @@
   grid-template-rows: repeat(1, 1fr); /* Changed from 5 to 3 */
   grid-column-gap: 0.5rem;
   grid-row-gap: 0px;
-  padding-top: 3rem;
+  padding-top: 6rem;
 }
 
 

@@ -6,19 +6,17 @@ function CaseStudyTwo() {
     <div className={styles.parent}>
       <div className={styles.div1}>
       <h2 className={styles.storyHeading}>
-      REAL MAGIC HAPPENED WITH TRANSITIONS
+      The Challenge of Seamless Transitions
         </h2>
       </div>
       <div className={styles.div2}>
       <div className={styles.div1}>
       <h4 className={styles.storyDetails}>
-      Once the sketches felt right, brimming with potential movement, 
-      I began crafting the scenes in After Effects. Using the pen tool, 
-      I traced over my initial sketches to create vector shapes, adding 
-      depth and movement with. Once the sketches felt right, brimming with potential movement, 
-      I began crafting the scenes in After Effects. Using the pen tool, 
-      I traced over my initial sketches to create vector shapes, adding 
-      depth and movement with
+      One of the significant hurdles I faced was achieving natural-looking transitions—a 
+      task as daunting as teaching a shoe to swim. Early attempts at these transitions were 
+      clumsy and disjointed, more akin to a poorly orchestrated dance than the fluid motion I envisioned. 
+      However, through persistence, creativity, and copious amounts of coffee, I eventually guided the 
+      project through a series of organic transformations that felt both intuitive and engaging.
         </h4>
       </div>
       </div>

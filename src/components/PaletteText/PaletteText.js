@@ -6,16 +6,18 @@ function PaletteText() {
     <div className={styles.parent}>
       <div className={styles.div2}>
         <h2 className={styles.storyHeading}>
-          SELECTING THE COLOURS FOR THE VIDEO
+        Crafting Colors from Earth and Water
         </h2>
       </div>
       <div className={styles.div1}>
       <h4 className={styles.storyDetails}>
-          This palette not only aligned with Tropicfeel’s brand
-          identity but also supported the theme of versatility in different 
-          environments. Inspired by nature and urban textures. This palette not 
-          only aligned with Tropicfeel’s brand identity but also supported the 
-          theme of versatility in different environments. Inspired by nature and urban textures.
+      Choosing the right color palette was a deliberate process, deeply 
+      influenced by the diverse terrains the AT X shoe is designed to conquer. 
+      I opted for a harmonious blend of deep, soothing forest greens and accented with bursts of vibrant, refreshing blues to reflect aquatic elements. 
+      This choice wasn't just about aesthetics—it was strategically aligned with Tropicfeel's brand identity, 
+      reinforcing the shoe's philosophy and its dual compatibility with both urban and natural landscapes. 
+      The colors played a critical role in the narrative, subtly influencing the viewer’s emotional journey 
+      through each environmental transition.
         </h4>
       </div>
     </div>
