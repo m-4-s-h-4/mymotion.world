@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
 html{
   height: -webkit-fill-available;
   background-color: var(--dark-colour);
+  scroll-behavior: smooth;
 }
 
 /* margin-top: 3rem;

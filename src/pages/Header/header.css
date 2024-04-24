@@ -1,6 +1,7 @@
 .header {
     position: relative; /* Needed to position Lottie absolutely inside this container */
     height: 100vh;
+    overflow: hidden;
     width: 100%;
     padding: 6rem;
     background-color: #212121;

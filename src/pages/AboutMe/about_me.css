@@ -37,6 +37,7 @@ h3 {
     width: 30%;
     text-align: left;
     overflow: hidden; /* Contain the animations within the block */
+    padding-bottom: 3rem;
 }
 
 /* Animation Blocks */
