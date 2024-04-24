@@ -11,6 +11,7 @@ import CaseStudyOne from '../../components/CaseStudyOne/CaseStudyOne';
 import CaseStudyTwo from '../../components/CaseStudyTwo/CaseStudyTwo';
 import CaseStudyThree from '../../components/CaseStudyThree/CaseStudyThree';
 import CaseStudyFour from '../../components/CaseStudyFour/CaseStudyFour';
+import CaseStudyFive from '../../components/CaseStudyFive/CaseStudyFive';
 
 const ProjectOverview = () => {
   return (
@@ -47,6 +48,7 @@ const ProjectOverview = () => {
      <CaseStudyThree/>
      <CaseStudyFour/>
      <Divider/>
+     <CaseStudyFive/>
      </div>
      
   );

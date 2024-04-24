@@ -13,24 +13,21 @@ const AboutMe = () => {
             <div className="info-sections">
                
                 <div className="info-block">
-                <Lottie className="lottie-block" animationData={remote_anim} loop={true} autoplay={true} />
-                    <h3>MOTION & FRONTEND</h3>
-                    <h4>I animate interfaces and craete websites with a focus on user experience.
-                        I animate interfaces and craete websites with a focus on user experience.</h4>
+                    <Lottie className="lottie-block" animationData={remote_anim} loop={true} autoplay={true} />
+                    <h3>MOTION DESIGNER & FRONTEND</h3>
+                    <h4>I specialize in animating interfaces and developing user-centric websites, crafting seamless online experiences.</h4>
                 </div>
                  <div className="info-block">
-                <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />
-                    <h3>OPEN FOR REMOTE</h3>
-                    <h4> I thrive in the quiet chaos of my home office, 
-                        where my cat supervises all of the Zoom calls.I thrive in the quiet chaos of my home office, 
-                        where my cat supervises all of the Zoom calls.</h4>
+                    <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />
+                    <h3>BASED IN SPAIN & REMOTE</h3>
+                    <h4>Based in the sunny Spain, I am continually delighted to collaborate and innovate from the tranquility of my well-equipped home office.</h4>
+
+
                 </div>
                 <div className="info-block">
-                <Lottie className="lottie-block" animationData={inspire_anim} loop={true} autoplay={true} />
+                    <Lottie className="lottie-block" animationData={inspire_anim} loop={true} autoplay={true} />
                     <h3>THINGS THAT INSPIRE ME</h3>
-                    <h4>Inspired by Ben Marriott’s storytelling, 
-                        his influence shapes my narrative approach.Inspired by Ben Marriott’s 
-                        storytelling, his influence shapes my narrative.</h4>
+                    <h4>Influenced by Ben Marriott's engaging storytelling, I always integrate his narrative-driven approach into my design philosophy.</h4>
                 </div>
             </div>
         </div>

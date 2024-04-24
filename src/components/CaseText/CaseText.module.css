@@ -9,9 +9,11 @@
   margin-top: 3rem;
   padding-right: 6rem;
   padding-left: 6rem;
+  z-index: 1000;
 }
 
 .div1 {
+  z-index: 1000;
   grid-area: 1 / 1 / 2 / 3; /* First two columns */
   display: flex;
   flex-direction: column;
@@ -19,6 +21,7 @@
 }
 
 .div2 {
+  z-index: 1000;
   grid-area: 1 / 3 / 2 / 5; /* Last two columns */
   display: flex;
   flex-direction: column;
@@ -27,6 +30,7 @@
 }
 
 .storyHeading {
+  z-index: 1000;
   margin: 0; /* Remove margin to fit better in grid */
   padding: 0; /* Padding for text */
   color: var(--orange-colour); /* Custom property for the color */
@@ -40,6 +44,7 @@
 
   .smallerText{
     margin-top: 2rem;
+    z-index: 1000;
   }
 
   .buttonContainer {

@@ -5,7 +5,7 @@ function CaseStudyFour() {
   return (
       <div className={styles.parent}>
         <div className={styles.div1}>
-          <h2>ITERATIONS & REFINEMENT</h2>
+          <h2 className={styles.title}>ITERATIONS & REFINEMENT</h2>
           <h4>The creative process is seldom linear, and this project was no 
             exception. Each stage of the animation—from the initial sketches to the 
             final sequences—underwent numerous revisions and refinements. The initial 
@@ -28,7 +28,7 @@ function CaseStudyFour() {
             contributed purposefully to the overall story.</h4>
         </div>
         <div className={styles.div2}>
-          <img className={styles.image} src="Casestudy3.png" alt="Descriptive Alt Text" />
+          <img className={styles.image} src="shoes2.png" alt="Descriptive Alt Text" />
         </div>
       </div>
     );

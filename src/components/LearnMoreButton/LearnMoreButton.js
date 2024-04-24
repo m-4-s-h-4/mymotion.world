@@ -6,7 +6,7 @@ const LearnMoreButton = () => {
   return (
     <div className={styles.buttonContainer}>
       <Link to="/project-overview" className={styles.linkButton}>
-       explore
+       Learn More  <span> {"->"} </span> 
       </Link>
     </div>
   );
