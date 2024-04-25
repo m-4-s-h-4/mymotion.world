@@ -14,12 +14,12 @@ const AboutMe = () => {
                
                 <div className="info-block">
                     <Lottie className="lottie-block" animationData={remote_anim} loop={true} autoplay={true} />
-                    <h3>MOTION DESIGNER & FRONTEND</h3>
+                    <h3>MOTION DESIGNER AND FRONTEND</h3>
                     <h4>I specialize in animating interfaces and developing user-centric websites, crafting seamless online experiences.</h4>
                 </div>
                  <div className="info-block">
                     <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />
-                    <h3>BASED IN SPAIN & open to REMOTE</h3>
+                    <h3>BASED IN SPAIN AND open to REMOTE</h3>
                     <h4>Based in the sunny Spain, I am continually delighted to collaborate and innovate from the tranquility of my home office.</h4>
 
 
