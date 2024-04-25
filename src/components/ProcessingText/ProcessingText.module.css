@@ -33,3 +33,7 @@
     padding: 0; /* Padding for text */
   }
   
+  .mute{
+    margin-top: 1rem;
+    color: var(--orange-colour);
+  }

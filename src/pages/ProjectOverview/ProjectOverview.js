@@ -15,21 +15,13 @@ import WavesText from '../../components/WavesText/WavesText';
 import WavesImages from '../../components/WavesImages/WavesImages';
 import ColorGrid from '../../components/ColorGrid/ColorGrid';
 import CaseStudyFinal from '../../components/CaseStudyFinal/CaseStudyFinal';
+import BackButton from '../../components/BackButton/BackButton';
 
 const ProjectOverview = () => {
   return (
     <div className="page-container">
-      <div className="back-button">
-        <Link to="/">
-          <span> {"<-"} </span> 
-        </Link>
-      </div>
-     {/* <h2 className="main-text"><span className="white-text">It all began with </span> <span className="orange-text-project">sketches on napkins </span >
-     <span className="white-text">— because aren't all brilliant ideas born on paper tablecloths? </span> </h2> */}
+    <BackButton/>
      <Divider/>
-     
-
- 
    <PaletteText/>
     <ImageGrid/>
     <ColorGrid/>
@@ -48,6 +40,7 @@ const ProjectOverview = () => {
      <WavesImages/>
      <Divider/>
      <CaseStudyFinal/>
+
      </div>
      
   );

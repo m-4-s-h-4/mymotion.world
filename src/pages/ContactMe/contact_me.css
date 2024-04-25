@@ -37,7 +37,7 @@
   }
   
   .links a:hover {
-    text-decoration: underline; /* Underline on hover for better interaction visibility */
+    font-weight: 500;
   }
 
   .contact-title{
