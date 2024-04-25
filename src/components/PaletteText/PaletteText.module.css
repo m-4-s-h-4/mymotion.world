@@ -13,7 +13,6 @@
     grid-area: 1 / 3 / 2 / 5; /* Last two columns for H2 */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Aligns H2 content to the bottom */
   }
   
   .div2 {

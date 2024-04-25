@@ -1,0 +1,30 @@
+/* CaseStudyThree.module.css */
+.parent {
+  height: 80rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem; /* Ensures there is space below the grid */
+}
+
+.div1, .div2 {
+  display: flex; /* Use flex to control image alignment */
+  align-items: stretch; /* Stretches child elements to fill the container */
+  overflow: hidden; /* Keeps the image within the div without overflow */
+  height: 100%; /* Ensure the divs fill the grid area vertically */
+}
+
+.image1, .image2 {
+  width: 100%;
+  height: 100%; /* Forces the image to fill the height of the div */
+  object-fit: cover; /* Ensures the image covers the area without distorting the aspect ratio */
+}
+
+.div1 {
+  grid-area: 1 / 1 / 1 / 3; /* Spans two columns */
+}
+
+.div2 {
+  grid-area: 1 / 3 / 1 / 5; /* Spans two columns */
+}

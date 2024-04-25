@@ -5,30 +5,12 @@ function CaseStudyFour() {
   return (
       <div className={styles.parent}>
         <div className={styles.div1}>
-          <h2 className={styles.title}>ITERATIONS & REFINEMENT</h2>
-          <h4>The creative process is seldom linear, and this project was no 
-            exception. Each stage of the animation—from the initial sketches to the 
-            final sequences—underwent numerous revisions and refinements. The initial 
-            transitions between textures felt too abrupt, lacking the organic feel necessary 
-            to convey the seamless adaptation of the AT X shoes to different environments. 
-            I experimented with various animation techniques, adjusting timings and transition 
-            styles to achieve the right balance between visual impact and narrative clarity. 
-            Additionally, feedback sessions were integral, providing fresh perspectives 
-            that led to iterative improvements, ensuring that every frame of the animation 
-            contributed purposefully to the overall story.
-            The creative process is seldom linear, and this project was no 
-            exception. Each stage of the animation—from the initial sketches to the 
-            final sequences—underwent numerous revisions and refinements. The initial 
-            transitions between textures felt too abrupt, lacking the organic feel necessary 
-            to convey the seamless adaptation of the AT X shoes to different environments. 
-            I experimented with various animation techniques, adjusting timings and transition 
-            styles to achieve the right balance between visual impact and narrative clarity. 
-            Additionally, feedback sessions were integral, providing fresh perspectives 
-            that led to iterative improvements, ensuring that every frame of the animation 
-            contributed purposefully to the overall story.</h4>
+          <h2 className={styles.title}>making the foot grow </h2>
+          <h4>The animation process began by tracing my initial sketch using a pen tool. I then applied trim paths to each line, adjusting the timing to create the illusion of the lines drawing themselves into a complete foot. This technique provided a visually engaging start for the 10-second promotional video.</h4>
+            <img className={styles.image1} src="foot_sketch.png" alt="Descriptive Alt Text" />
         </div>
         <div className={styles.div2}>
-          <img className={styles.image} src="shoes2.png" alt="Descriptive Alt Text" />
+          <img className={styles.image} src="foot_grow.gif" alt="Descriptive Alt Text" />
         </div>
       </div>
     );

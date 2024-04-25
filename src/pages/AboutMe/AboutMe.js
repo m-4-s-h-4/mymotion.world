@@ -19,14 +19,14 @@ const AboutMe = () => {
                 </div>
                  <div className="info-block">
                     <Lottie className="lottie-block" animationData={cat_anim} loop={true} autoplay={true} />
-                    <h3>BASED IN SPAIN & REMOTE</h3>
-                    <h4>Based in the sunny Spain, I am continually delighted to collaborate and innovate from the tranquility of my well-equipped home office.</h4>
+                    <h3>BASED IN SPAIN & open to REMOTE</h3>
+                    <h4>Based in the sunny Spain, I am continually delighted to collaborate and innovate from the tranquility of my home office.</h4>
 
 
                 </div>
                 <div className="info-block">
                     <Lottie className="lottie-block" animationData={inspire_anim} loop={true} autoplay={true} />
-                    <h3>THINGS THAT INSPIRE ME</h3>
+                    <h3>THINGS THAT INSPIRE ME in my work</h3>
                     <h4>Influenced by Ben Marriott's engaging storytelling, I always integrate his narrative-driven approach into my design philosophy.</h4>
                 </div>
             </div>

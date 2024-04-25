@@ -12,9 +12,7 @@ function SketchesText() {
       </div>
       <div className={styles.div2}>
         <h4 className={styles.storyDetails}>
-        Transitioning these spontaneous beginnings into a more structured digital format marked the next phase of my creative process. Back in the studio, I meticulously transformed these sketches into detailed storyboards using a high-end graphic tablet. The rough, primitive lines from my café napkins evolved into sharp, defined vectors. This transformation was crucial as it allowed me to accurately plan out the dynamic environmental transitions that would become the cornerstone of the animation.
-
-
+        I initially sketched the shoe's sole, intending to reflect the rugged terrain it was designed to conquer. For the terrain sketch I started by manipulating a grid using Photoshop’s liquify and displacement tools to simulate terrain textures, it wasn't quite capturing the robustness I envisioned. This challenge led me to leverage my coding skills, employing the Processing programming environment to create a dynamic, grid-based terrain inspired by my initial sketches.
         </h4>
       </div>
     </div>

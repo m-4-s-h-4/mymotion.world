@@ -6,18 +6,17 @@ function PaletteText() {
     <div className={styles.parent}>
       <div className={styles.div2}>
         <h2 className={styles.storyHeading}>
-        Crafting Colors from Earth and Water
+        Images that inspired the video idea
         </h2>
       </div>
       <div className={styles.div1}>
       <h4 className={styles.storyDetails}>
-      Choosing the right color palette was a deliberate process, deeply 
-      influenced by the diverse terrains the AT X shoe is designed to conquer. 
-      I opted for a harmonious blend of deep, soothing forest greens and accented with bursts of vibrant, refreshing blues to reflect aquatic elements. 
-      This choice wasn't just about aesthetics—it was strategically aligned with Tropicfeel's brand identity, 
-      reinforcing the shoe's philosophy and its dual compatibility with both urban and natural landscapes. 
-      The colors played a critical role in the narrative, subtly influencing the viewer’s emotional journey 
-      through each environmental transition.
+      The concept for the 10-second video was inspired by compelling black and white images 
+      that used a white grid to illustrate terrains with significant displacement effects. 
+      The vivid contrast and precise geometry of these images evoked a sense of depth and movement.
+      Additionally, the choice of style was influenced by Tropicfeel's use of only black and white, 
+      particle, and line effect styles in their All Terrain campaign. This thematic alignment added an 
+      extra layer of coherence and artistic continuity to the project, enhancing its visual impact and thematic depth.
         </h4>
       </div>
     </div>

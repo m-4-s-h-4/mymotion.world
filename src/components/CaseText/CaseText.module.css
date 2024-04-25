@@ -52,20 +52,7 @@
     margin-top: 20px; /* Space above the button */
   }
   
-  .linkButton {
-    margin-top: 20px; /* Adds space between the text and the button */
-    background-color: #007BFF; /* Bootstrap primary blue */
-    color: white;
-    padding: 10px 20px;
-    z-index: 1000;
-    text-decoration: none; /* Removes underline from links */
-    border-radius: 5px; /* Rounded corners for the button */
-    display: inline-block; /* Needed to apply padding correctly */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    align-self: flex-end; /* Aligns the button to the right */
-  }
   
-  .linkButton:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+  .tag{
+    color: var(--light-colour);
   }
-  

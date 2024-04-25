@@ -27,7 +27,7 @@
 }
 
 .text{
-  text-transform: none;
+  color:var(--orange-colour);
   line-height: 90%;
   margin-bottom: 3rem;
 }
