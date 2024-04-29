@@ -10,8 +10,6 @@ function SplineModel() {
         const app = new Application(canvas);
         app.load('https://prod.spline.design/gsHyBjNjA0WgPlho/scene.splinecode');
 
-        app.load('https://prod.spline.design/xeOsjChoGQJP7dim/scene.splinecode');
-
         return () => {
             app.dispose();
         };
