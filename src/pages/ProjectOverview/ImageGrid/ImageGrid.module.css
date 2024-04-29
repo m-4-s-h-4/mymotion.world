@@ -1,0 +1,44 @@
+.gridContainer {
+  padding-left: 6rem;
+  padding-right: 6rem;
+    height: 40rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  
+  .imageColorPaletteLarge {
+    grid-area: 1 / 1 / 3 / 2;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .imageColorPaletteTopMiddle {
+    grid-area: 1 / 2 / 2 / 3;
+    background-size: cover;
+  }
+  
+  .imageColorPaletteBottomMiddle {
+    grid-area: 2 / 2 / 3 / 3;
+    background-size: cover;
+  }
+  
+  .imageColorPaletteBottomLeft {
+    grid-area: 2 / 3 / 3 / 4;
+    background-size: cover;
+  }
+  
+  .imageColorPaletteTopLeft {
+    grid-area: 1 / 3 / 2 / 4;
+    background-size: cover;
+  }
+  
+  .imageColorPaletteLargeRight {
+    grid-area: 1 / 4 / 3 / 5;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+  }
+  

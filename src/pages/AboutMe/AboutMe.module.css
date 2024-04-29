@@ -1,0 +1,13 @@
+.aboutmeContainer {
+    width: 100%;
+    padding: 6rem;
+    height: auto;
+    background-color: var(--light-colour);
+    overflow-x:hidden;
+}
+
+.image{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+}

@@ -1,46 +1,49 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './project_overview.css'; 
-import ImageGrid from '../../components/ImageGrid/ImageGrid';
-import SketchesGrid from '../../components/SketchesGrid/SketchesGrid';
-import SketchesText from '../../components/SketchesText/SketchesText';
-import PaletteText from '../../components/PaletteText/PaletteText';
-import Divider from '../../components/Divider/Diveder';
-import CaseStudyTwo from '../../components/CaseStudyTwo/CaseStudyTwo';
-import CaseStudyThree from '../../components/CaseStudyThree/CaseStudyThree';
-import CaseStudyFour from '../../components/CaseStudyFour/CaseStudyFour';
-import ProcessingText from '../../components/ProcessingText/ProcessingText';
-import ProcessingGrid from '../../components/ProcessingGrid/ProcessingGrid';
-import WavesText from '../../components/WavesText/WavesText';
-import WavesImages from '../../components/WavesImages/WavesImages';
-import ColorGrid from '../../components/ColorGrid/ColorGrid';
-import CaseStudyFinal from '../../components/CaseStudyFinal/CaseStudyFinal';
-import BackButton from '../../components/BackButton/BackButton';
+import ImageGrid from './ImageGrid/ImageGrid';
+import ProcessingGrid from './ProcessingGrid/ProcessingGrid';
+import BackButton from './BackButton/BackButton';
+import CaseOverview from './CaseOverview/CaseOverview';
+import TextMoodboard from './TextMoodboard/TextMoodboard';
+import ColourGridText from './ColourGridText/ColourGridText';
+import TextSketches from './TextSketches/TextSketches';
+import ImageSketch from './ImageSketch/ImageSketch';
+import TextProcessing from './TextProcessing/TextProcessing';
+import AdobeSectionTitle from './AdobeSectionTitle/AdobeSectionTitle';
+import TextAdobe from './TextAdobe/TextAdobe';
+import ImagesAdobe from './ImagesAdobe/ImagesAdobe';
+import TextTransitions from './TextTransitions/TextTransitions';
+import ImagesTransitions from './ImagesTransitions/ImagesTransitions';
+import TextTerrain from './TextTerrain/TextTerrain';
+import ImagesTerrain from './ImagesTerrain/ImagesTerrain';
+import TextConclusion from './TextConclusion/TextConclusion';
+import ImagesConclusion from './ImagesConclusion/ImagesConclusion';
+import CaseKeyTakeaways from './CaseKeyTakeaways/CaseKeyTakeaways';
 
 const ProjectOverview = () => {
   return (
     <div className="page-container">
     <BackButton/>
-     <Divider/>
-   <PaletteText/>
+<CaseOverview/>
+{/* <TextStep/> */}
+{/* shoes */}
+<TextMoodboard/>
     <ImageGrid/>
-    <ColorGrid/>
-    <SketchesText/>
-    <SketchesGrid/>
-    <Divider/>
-     <ProcessingText/>
+<ColourGridText/>
+<TextSketches/>
+<ImageSketch/>
+<TextProcessing/>
      <ProcessingGrid/>
-     <h2 className="adobe-title-container"><span className="white-text">ANIMATING ADVENTURES IN ADOBE </span> <span className="orange-text-project">AFTEREFFECTS </span >
-      </h2>
-     <Divider/>
-     <CaseStudyFour/>
-     <CaseStudyTwo/>
-     <CaseStudyThree/>
-     <WavesText/>
-     <WavesImages/>
-     <Divider/>
-     <CaseStudyFinal/>
-
+<AdobeSectionTitle/>
+     <TextAdobe/>
+     <ImagesAdobe/>
+<TextTransitions/>
+<ImagesTransitions/>
+<TextTerrain/>
+<ImagesTerrain/>
+<TextConclusion/>
+<ImagesConclusion/>
+<CaseKeyTakeaways/>
      </div>
      
   );

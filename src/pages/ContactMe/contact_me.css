@@ -1,46 +1,64 @@
 .contact-container {
     position: relative; 
+    padding: 2rem;
     width: 100%;
-    height: 35vh; 
+    height: auto; 
     overflow: hidden;
-    background-color: #f53018;
-    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+    background-color: var(--light-colour);
 }
 
 .contact-text {
     position: absolute; /* Absolute positioning within the fixed container */
     left: 0; /* Align to the left */
     bottom: 0; /* Align to the bottom */
-    padding: 3rem; /* Add some padding around the text */
+    padding: 2rem; /* Add some padding around the text */
     max-width:90%;
 }
 
-
 .contact-content {
-    position: absolute;
-    bottom: 20px; /* Distance from the bottom */
-    text-align: center; /* Center the text horizontally */
-    width: 100%;
-  }
-  
-  .links h4 {
-    margin: 10px 20px; /* Space between links */
-    display: inline; /* Display links inline */
-  }
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--dark-colour);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center aligns all content within contact-content */
+  justify-content: center; /* Vertically center content within the container */
+  height: 100%; /* Use the full height of the contact-container */
+}
+
+.links {
+  display: flex;
+  justify-content: center; /* Center the links horizontally */
+  align-items: center; /* Align the links vertically */
+  gap: 1rem; /* Adjust gap between Email and LinkedIn links */
+  width: 100%; /* Take the full width to use justify-content properly */
+  margin-bottom: 1rem;
+}
+
+.links h4 {
+  margin: 0; /* Remove any default margins */
+}
+
   
   .links a {
-    font-size: var(--font-size-h3);
-    font-weight: 300;
-    line-height: 115%;
-    color: var(--dark-colour);
-    text-decoration: underline;
+    margin-right: 3rem;
+
+    font-size: var(--font-size-h4);
+      /* color: var(--grey-colour); */
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 120%;
+    color: var(--light-colour);
+
+    text-decoration: none;
   }
   
   .links a:hover {
-    font-weight: 500;
+    text-decoration: underline;
   }
 
   .contact-title{
+    margin-top: 1rem;
     font-weight: 700;
     padding-bottom: 3rem;
   }

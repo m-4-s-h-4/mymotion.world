@@ -1,0 +1,29 @@
+.buttonContainer {
+    width: 100%; /* Container takes full width */
+    display: flex; /* Use flexbox for easy alignment */
+    padding-right: 6rem; /* Padding for aesthetic spacing */
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .linkButton {
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--dark-colour);
+    padding: 0.5rem 1rem;
+    background-color: var(--dark-colour);
+    color: var(--light-colour);
+    font-size: var(--font-size-h3);
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 10px;
+  }
+  
+  .linkButton:hover {
+    transform: scale(1.05); /* Scales up the button by 10% */
+  }
+  

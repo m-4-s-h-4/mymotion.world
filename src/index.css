@@ -8,14 +8,14 @@
 }
 
 :root {
-  --dark-colour: #212121;
-  --light-colour: #E8F7FF; 
-  --orange-colour: #F53018;
+  --light-colour: #CFCFCF;
+  --dark-colour: #141414; 
+  --grey-colour: rgba(101, 101, 101, 0.786); 
 
   --font-size-h1: 10.42vw;
   --font-size-h2: 5.21vw;
-  --font-size-h3-1: 1.50vw;
-  --font-size-h3: 1.21vw;
+  --font-size-h3: 1.15vw;
+  --font-size-h4: 1vw;
 
   --font-bold:500;
   --font-normal:300;
@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 
 html{
   height: -webkit-fill-available;
-  background-color: var(--dark-colour);
+  background-color: var(--light-colour);
   scroll-behavior: smooth;
 }
 
@@ -36,13 +36,13 @@ html{
 margin-top: 6rem; */
 
 body {
-  color: var(--light-colour);
+  color: var(--dark-colour);
   font-family: 'Manrope', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: var(--font-normal);
   font-size: var(--font-size-h3);
-  line-height: 115%;
+  line-height: 120%;
 }
 
 h1{
@@ -50,7 +50,7 @@ h1{
   font-size: var(--font-size-h1);
   line-height: 90%;
   text-transform: uppercase;
-  color: var(--dark-colour);
+  color: var(--light-colour);
 }
 
 h2{
@@ -60,18 +60,16 @@ h2{
   line-height: 90%;
   }
 
-h3{
-    font-family: 'TT Autonomous Trial Variable', sans-serif;
-    font-size: var( --font-size-h3-1);
-    color: var(--orange-colour);
-    text-transform: uppercase;
-    font-weight: var(--font-normal);
-    line-height: 90%;
-  }
-
-  h4{
+  h3{
     font-size: var(--font-size-h3);
-    font-weight: 300;
-    line-height: 115%;
+    font-weight: 500;
+    line-height: 120%;
     }
 
+    h4{
+      font-size: var(--font-size-h4);
+      color: var(--grey-colour);
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 120%;
+      }

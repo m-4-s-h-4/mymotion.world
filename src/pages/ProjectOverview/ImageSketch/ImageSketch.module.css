@@ -1,0 +1,14 @@
+.fullContainer{
+    width:100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.image{
+    width:100%;
+    height: 35rem;
+    border-radius: 10px;
+}
+
+.tag{
+    margin-top: 1rem;
+}
