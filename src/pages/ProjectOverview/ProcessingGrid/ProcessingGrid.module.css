@@ -5,7 +5,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 5rem;
-    grid-row-gap: 5rem;
+    grid-row-gap: 3rem;
     margin-top: 3rem;
     padding-right: 6rem;
     padding-left: 6rem;
@@ -39,3 +39,12 @@
     object-fit: cover; /* Ensures the image covers the div completely */
 }
 
+.videoAltText {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.794); /* Semi-transparent background */
+    padding: 10px;
+    margin-top: -3rem; /* Adjust this as needed to position the text over the video or below it */
+    position: relative;
+    z-index: 10;
+    font-size: 1.2rem;
+}

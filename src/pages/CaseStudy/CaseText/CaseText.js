@@ -24,7 +24,7 @@ function CaseText() {
         </div>
       </div>
       <div className={styles.div2}>
-        <img src="final.gif" alt="Descriptive Alt Text" className={styles.image}/>
+        <img src="final.gif" alt="final animation for Tropicfeel" className={styles.image}/>
       </div>
     </div>
   );

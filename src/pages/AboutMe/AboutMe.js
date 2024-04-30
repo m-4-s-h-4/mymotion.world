@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className={styles.aboutmeContainer}>
             <AboutText/>
             <div className={styles.imageContainer}>
-            <img src="eyes.png" alt="Descriptive Alt Text" className={styles.image}/>
+            <img src="eyes.png" alt="animation of dragon with fire" className={styles.image}/>
         </div>
         </div>
 

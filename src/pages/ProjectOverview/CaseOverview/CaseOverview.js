@@ -21,7 +21,7 @@ PROJECT OVERVIEW
         </div>
       </div>
       <div className={styles.div2}>
-        <img src="final.gif" alt="Descriptive Alt Text" className={styles.image}/>
+        <img src="final.gif" alt="Final animation for tropicfeel" className={styles.image}/>
       </div>
     </div>
   );

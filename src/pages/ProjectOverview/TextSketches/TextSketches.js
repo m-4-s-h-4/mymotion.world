@@ -16,7 +16,7 @@ function TextSketches() {
         </div>
       </div>
       <div className={styles.div2}>
-        <img src="shoe.png" alt="Descriptive Alt Text" className={styles.image}/>
+        <img src="shoe.png" alt="Sole of the shoe that I drew in ProCreateDescriptive" className={styles.image}/>
         <h4 className={styles.tag}>Sole of the shoe that I drew in ProCreate</h4>
       </div>
     </div>
